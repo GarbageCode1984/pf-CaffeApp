@@ -1,1 +1,10 @@
 $bg-blue : #228be6;
+$contents-blue : rgb(255, 255, 255);
+$bg-gray : rgb(189, 184, 184);
+
+@mixin set-box($width, $height, $border-radius: 0){
+  width: $width;
+  height: $height;
+  border-radius: $border-radius;
+  background-color: #fff;
+}

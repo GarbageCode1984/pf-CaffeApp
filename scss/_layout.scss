@@ -3,10 +3,11 @@
   height: 100%;
   display: flex;
   justify-content: center;
+  background-color: $bg-gray;
+
   main{
-    width: 393px;
-    height: 852px;
-    border: 1px solid blue;
+    // width: 393px;
+    // height: 852px;
     header{
       background-color: $bg-blue;
       width: 100%;

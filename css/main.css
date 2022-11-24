@@ -14,6 +14,10 @@ body {
   min-width: 350px;
 }
 
+ul, li {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -23,11 +27,7 @@ a {
   height: 100%;
   display: flex;
   justify-content: center;
-}
-.container main {
-  width: 393px;
-  height: 852px;
-  border: 1px solid blue;
+  background-color: rgb(189, 184, 184);
 }
 .container main header {
   background-color: #228be6;
@@ -46,13 +46,57 @@ a {
   color: #FCDA19;
 }
 
-section .img-box {
-  height: 25vh;
+.sec1 .sliderWrap {
+  overflow: hidden;
 }
-section .img {
+.sec1 .sliderWrap .slider {
+  transition: transform 0.8s;
   width: 100%;
+  height: 30%;
+}
+.sec1 .sliderWrap .slider .img-box {
+  width: 300%;
+}
+.sec1 .sliderWrap .slider img {
+  float: left;
+  width: 100vw;
   height: 100%;
   object-fit: cover;
+}
+
+.sec2 {
+  display: flex;
+  justify-content: center;
+  /* Contents1 end */
+}
+.sec2 .Contents1 {
+  margin-top: 5vh;
+  border: 1px solid red;
+  width: 80vw;
+  height: 20vh;
+  border-radius: 30px;
+  background-color: #fff;
+  /* top end */
+}
+.sec2 .Contents1 .top {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.sec2 .Contents1 .top h1 {
+  padding-top: 5px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.sec2 .Contents1 .top h1 span {
+  font-size: 18px;
+  font-weight: 800;
+}
+.sec2 .Contents1 .top img {
+  padding-right: 1vw;
+  width: 100px;
+  height: 60px;
+  object-fit: contain;
 }
 
 /*# sourceMappingURL=main.css.map */
