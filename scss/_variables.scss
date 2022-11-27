@@ -1,10 +1,12 @@
-$bg-blue : #228be6;
-$contents-blue : rgb(255, 255, 255);
-$bg-gray : rgb(189, 184, 184);
+$bg-blue: #228be6;
+$contents-blue: #098dff;
+$contents-blueDark: #1570be;
+$contents-blueLight: #5daaed;
+$bg-gray: rgb(189, 184, 184);
 
-@mixin set-box($width, $height, $border-radius: 0){
-  width: $width;
-  height: $height;
-  border-radius: $border-radius;
-  background-color: #fff;
+@mixin set-box($width, $height, $border-radius: 0, $background-color: #fff) {
+    width: $width;
+    height: $height;
+    border-radius: $border-radius;
+    background-color: $background-color;
 }
