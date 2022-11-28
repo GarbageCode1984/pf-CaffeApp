@@ -61,7 +61,7 @@ a {
 .sec1 .sliderWrap .slider img {
   float: left;
   width: 100vw;
-  height: 70vh;
+  height: 60vh;
   object-fit: cover;
 }
 @media (max-width: 450px) {
@@ -71,7 +71,7 @@ a {
 }
 
 .sec2 {
-  padding-top: 10%;
+  padding-top: 5%;
   display: flex;
   justify-content: center;
   /* Contents1 end */
@@ -127,9 +127,14 @@ a {
 .sec2 .Contents1 .bottom a:hover {
   opacity: 0.9;
 }
+@media (max-width: 450px) {
+  .sec2 {
+    padding-top: 8.9% !important;
+  }
+}
 
 .sec3 {
-  margin-top: 8%;
+  margin-top: 10%;
   display: inline-block;
 }
 .sec3 .boxWrap1,
