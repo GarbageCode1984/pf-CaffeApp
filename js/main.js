@@ -13,3 +13,6 @@ setInterval(() => {
   v = 0;
   }
 }, 3000);
+
+//nav
+let mainNav = document.querySelector('.navigate .head img')
