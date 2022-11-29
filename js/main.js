@@ -14,5 +14,17 @@ setInterval(() => {
     }
 }, 3000);
 
-//nav
-let mainNav = document.querySelector(".navigate .head img");
+//nav Change
+let NavOpen = document.querySelector(".container .menu");
+let NavClose = document.querySelector(".navigate .x_icon");
+let NavChange = document.querySelector("nav");
+
+NavOpen.addEventListener("click", function () {
+    NavChange.classList.add("on");
+});
+
+NavClose.addEventListener("click", function () {
+    NavChange.classList.remove("on");
+});
+
+//profile
