@@ -2,12 +2,13 @@ $bg-blue: #228be6;
 $contents-blue: #098dff;
 $contents-blueDark: #1570be;
 $contents-blueLight: #5daaed;
+$header-caffe: #fcda19;
 $font-color: rgb(172, 114, 248);
 $bg-gray: rgb(189, 184, 184);
 
 @mixin set-box($width, $height, $border-radius: 0, $background-color: #fff) {
-    width: $width;
-    height: $height;
-    border-radius: $border-radius;
-    background-color: $background-color;
+  width: $width;
+  height: $height;
+  border-radius: $border-radius;
+  background-color: $background-color;
 }
