@@ -1,0 +1,143 @@
+header {
+  height: 50px;
+  display: flex;
+  background-color: $bg-blue;
+  a {
+    display: flex;
+    align-items: center;
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  h1 {
+    display: flex;
+    width: calc(100% - 54px);
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: $header-caffe;
+  }
+}
+.subbar {
+  width: 100%;
+  height: 5%;
+  background-color: rgba(186, 53, 219, 0.428);
+  display: inline-flex;
+  div {
+    border: 1px solid rgb(215, 157, 228);
+    width: calc(100% / 2);
+    p {
+      color: #fff;
+      text-align: center;
+      padding-top: 10px;
+    }
+  }
+}
+.subbar2 {
+  display: inline-flex;
+  border: 1px solid red;
+  width: 100%;
+  height: 10%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  p {
+    padding: 0 10%;
+    font-size: 18px;
+    strong {
+      color: rgb(21, 31, 223);
+      font-size: 20px;
+    }
+  }
+}
+.checkBox {
+  margin: 30px 10%;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 80%;
+  height: 20%;
+  padding-top: 25px;
+  border: 1px solid rgb(244, 150, 228);
+  .top {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .bottom {
+    display: flex;
+    justify-content: center;
+  }
+  .check {
+    background-color: #fff;
+    margin: 5px 5px;
+    width: 50px;
+    height: 50px;
+    border: 3px solid $contents-blueDark;
+    border-radius: 50%;
+  }
+}
+@media (min-width: 1024px) {
+  .checkBox {
+    margin: 30px 38.5%;
+    width: 23%;
+  }
+}
+
+.coupon {
+  background-color: #fff;
+  height: 5%;
+  border-radius: 10px;
+  p {
+    color: rgb(149, 143, 143);
+    text-align: center;
+  }
+}
+
+.go {
+  margin-top: 30px;
+  height: 20%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div {
+    @include set-box(35%, 25%, 30px);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5%;
+    background-color: $contents-blue;
+    color: #fff;
+  }
+}
+
+footer {
+  background-color: #fff;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  .f1 {
+    background-color: rgb(202, 202, 202);
+    height: 6vh;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+    }
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  .f2 {
+    background-color: #fff;
+    p {
+      color: rgb(151, 151, 151);
+    }
+  }
+}
