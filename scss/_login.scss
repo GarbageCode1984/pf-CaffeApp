@@ -1,89 +1,88 @@
 .loginHeader {
-    display: flex;
-    background-color: $bg-blue;
-    height: 50px;
+  display: flex;
+  background-color: $bg-blue;
+  height: 50px;
 
-    img {
-        margin-top: 6px;
-        width: 30px;
-        height: 30px;
-        color: #fff;
-    }
-    h1 {
-        width: 100%;
-        text-align: center;
-        padding-right: 40px;
-        color: $header-caffe;
-    }
+  img {
+    margin-top: 6px;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+  }
+  h1 {
+    width: 100%;
+    text-align: center;
+    padding-right: 40px;
+    color: $header-caffe;
+  }
 }
 
 .loginMain {
-    width: 100%;
-    height: calc(100% - 50px);
-    background-color: #fff;
+  width: 100%;
+  height: calc(100% - 50px);
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  form {
+    flex-direction: column;
     display: flex;
     justify-content: center;
-    form {
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-        border: 1px solid red;
-        width: 80%;
-        height: 40%;
-        input {
-            margin: 10px 0;
-            height: 20%;
-            border-radius: 10px;
-            outline: none;
-            border: 1px solid #bbb;
-        }
-        span {
-            font-weight: bold;
-        }
-
-        .circle {
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            border: 2px solid #333;
-            box-sizing: border-box;
-            border-radius: 10px;
-            position: relative;
-            top: 4px;
-            cursor: pointer;
-        }
-        .circle:after {
-            content: "\2714";
-            font-size: 24px;
-            color: #333;
-            position: absolute;
-            top: -14px;
-            left: 0;
-
-            opacity: 0; /* 처음엔 안보이게 처리 */
-            transition: 0.2s; /* CSS변화에 시간차 처리 */
-        }
-
-        #chk:checked + .circle:after {
-            opacity: 1;
-        }
-
-        #chk {
-            position: absolute;
-            left: -999em;
-        }
-
-        button {
-            display: block;
-            border: 1px solid red;
-            width: 100%;
-            height: 100%;
-            margin-top: 30px;
-            border-radius: 10px;
-            background-color: $contents-blueDark;
-            color: #fff;
-            font-size: 18px;
-            border: none;
-        }
+    width: 80%;
+    height: 40%;
+    input {
+      margin: 10px 0;
+      height: 20%;
+      border-radius: 10px;
+      outline: none;
+      border: 1px solid #bbb;
     }
+    span {
+      font-weight: bold;
+    }
+
+    .circle {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border: 2px solid #333;
+      box-sizing: border-box;
+      border-radius: 10px;
+      position: relative;
+      top: 4px;
+      cursor: pointer;
+    }
+    .circle:after {
+      content: "\2714";
+      font-size: 24px;
+      color: #333;
+      position: absolute;
+      top: -14px;
+      left: 0;
+
+      opacity: 0; /* 처음엔 안보이게 처리 */
+      transition: 0.2s; /* CSS변화에 시간차 처리 */
+    }
+
+    #chk:checked + .circle:after {
+      opacity: 1;
+    }
+
+    #chk {
+      position: absolute;
+      left: -999em;
+    }
+
+    button {
+      display: block;
+      border: 1px solid red;
+      width: 100%;
+      height: 100%;
+      margin-top: 30px;
+      border-radius: 10px;
+      background-color: $contents-blueDark;
+      color: #fff;
+      font-size: 18px;
+      border: none;
+    }
+  }
 }

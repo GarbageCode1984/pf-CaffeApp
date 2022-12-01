@@ -297,7 +297,6 @@ nav .navigate .lists li {
   flex-direction: column;
   display: flex;
   justify-content: center;
-  border: 1px solid red;
   width: 80%;
   height: 40%;
 }
@@ -484,20 +483,20 @@ nav .navigate .lists li {
   }
 }
 
-header {
+.stampHeader {
   height: 50px;
   display: flex;
   background-color: #228be6;
 }
-header a {
+.stampHeader a {
   display: flex;
   align-items: center;
 }
-header a img {
+.stampHeader a img {
   width: 30px;
   height: 30px;
 }
-header h1 {
+.stampHeader h1 {
   display: flex;
   width: calc(100% - 54px);
   justify-content: center;
@@ -524,7 +523,6 @@ header h1 {
 
 .subbar2 {
   display: inline-flex;
-  border: 1px solid red;
   width: 100%;
   height: 10%;
   justify-content: space-between;
@@ -576,12 +574,12 @@ header h1 {
     width: 23%;
   }
 }
-.coupon {
+.stampCoupon {
   background-color: #fff;
   height: 5%;
   border-radius: 10px;
 }
-.coupon p {
+.stampCoupon p {
   color: rgb(149, 143, 143);
   text-align: center;
 }
@@ -607,13 +605,12 @@ header h1 {
   color: #fff;
 }
 
-footer {
+.stampFooter {
   background-color: #fff;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
 }
-footer .f1 {
+.stampFooter .f1 {
   background-color: rgb(202, 202, 202);
   height: 6vh;
   width: 100%;
@@ -621,14 +618,14 @@ footer .f1 {
   justify-content: space-between;
   align-items: center;
 }
-footer .f1 img {
+.stampFooter .f1 img {
   width: 25px;
   height: 25px;
 }
-footer .f2 {
+.stampFooter .f2 {
   background-color: #fff;
 }
-footer .f2 p {
+.stampFooter .f2 p {
   color: rgb(151, 151, 151);
 }
 
