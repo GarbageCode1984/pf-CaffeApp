@@ -64,7 +64,8 @@ a {
   float: left;
   width: 100vw;
   height: 60vh;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 @media (max-width: 450px) {
   .sec1 img {
@@ -106,7 +107,8 @@ a {
   padding-right: 1vw;
   width: 100px;
   height: 60px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .sec2 .Contents1 .bottom {
   display: flex;
@@ -121,7 +123,8 @@ a {
 .sec2 .Contents1 .bottom a img {
   width: 10vw;
   height: 5vh;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .sec2 .Contents1 .bottom a p {
   text-align: center;
@@ -171,7 +174,8 @@ a {
   margin-left: 5px;
   width: 10vw;
   height: 6vh;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .sec3 .boxWrap1 a p,
 .sec3 .boxWrap2 a p {
@@ -449,7 +453,8 @@ nav .navigate .lists li {
 }
 .profileMain .list ul img {
   width: 1vw;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   position: absolute;
   top: 35%;
   right: 5%;
@@ -624,9 +629,9 @@ nav .navigate .lists li {
 }
 .stampFooter .f2 {
   background-color: #fff;
+  height: 9.6vh;
 }
 .stampFooter .f2 p {
+  font-size: 14px;
   color: rgb(151, 151, 151);
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
