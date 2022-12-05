@@ -5,9 +5,9 @@
   "display": "standalone",
   "name": "CaffeApp",
   "orientation": "any",
-  "scope": "https://github.com/GarbageCode1984/pf-CaffeApp",
+  "scope": "https://garbagecode1984.github.io/pf-CaffeApp/",
   "short_name": "CaffeApp",
-  "start_url": "https://github.com/GarbageCode1984/pf-CaffeApp",
+  "start_url": "https://garbagecode1984.github.io/pf-CaffeApp/",
   "theme_color": "#ffffff",
   "categories": [],
   "screenshots": [
