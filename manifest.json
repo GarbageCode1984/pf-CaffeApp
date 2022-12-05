@@ -1,0 +1,30 @@
+{
+  "background_color": "#ffffff",
+  "description": "CaffeApp",
+  "dir": "auto",
+  "display": "standalone",
+  "name": "CaffeApp",
+  "orientation": "any",
+  "scope": "https://github.com/GarbageCode1984/pf-CaffeApp",
+  "short_name": "CaffeApp",
+  "start_url": "https://github.com/GarbageCode1984/pf-CaffeApp",
+  "theme_color": "#ffffff",
+  "categories": [],
+  "screenshots": [
+    {
+      "src": "images/main.png",
+      "sizes": "396x845",
+      "type": "image/png"
+    }
+  ],
+  "icons": [
+    {
+      "src": "images/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [],
+  "lang": "ko"
+}

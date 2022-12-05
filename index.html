@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CaffeApp</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -10,6 +14,19 @@
   <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/main.css">
   <script defer src="./js/main.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      //서비스워커가 있을때(서비스워커 지원여부)
+      navigator.serviceWorker
+        .register("service-worker.js") //등록
+        .then(function (success) {
+          console.log("serviceworker 설치에 성공했습니다!!", success);
+        })
+        .catch(function (error) {
+          console.log("serviceworker 설치 실패 ㅠㅠ", error);
+        });
+    }
+  </script>
 </head>
 <body>
   <nav>
